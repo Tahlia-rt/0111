@@ -13,6 +13,8 @@
 		0A68E7F91E261F3E0074BE3A /* prpr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A68E7F71E261F3E0074BE3A /* prpr.xcdatamodeld */; };
 		0A68E7FB1E261F3E0074BE3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A68E7FA1E261F3E0074BE3A /* Assets.xcassets */; };
 		0A68E7FE1E261F3E0074BE3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A68E7FC1E261F3E0074BE3A /* LaunchScreen.storyboard */; };
+		0A68E8061E2620B30074BE3A /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A68E8051E2620B30074BE3A /* AViewController.swift */; };
+		0A68E8081E2621FB0074BE3A /* ACollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A68E8071E2621FB0074BE3A /* ACollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0A68E7FA1E261F3E0074BE3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A68E7FD1E261F3E0074BE3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A68E7FF1E261F3E0074BE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A68E8051E2620B30074BE3A /* AViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		0A68E8071E2621FB0074BE3A /* ACollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				0A68E7FC1E261F3E0074BE3A /* LaunchScreen.storyboard */,
 				0A68E7FF1E261F3E0074BE3A /* Info.plist */,
 				0A68E7F71E261F3E0074BE3A /* prpr.xcdatamodeld */,
+				0A68E8051E2620B30074BE3A /* AViewController.swift */,
+				0A68E8071E2621FB0074BE3A /* ACollectionViewCell.swift */,
 			);
 			path = prpr;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A68E8081E2621FB0074BE3A /* ACollectionViewCell.swift in Sources */,
+				0A68E8061E2620B30074BE3A /* AViewController.swift in Sources */,
 				0A68E7F31E261F3E0074BE3A /* ViewController.swift in Sources */,
 				0A68E7F91E261F3E0074BE3A /* prpr.xcdatamodeld in Sources */,
 				0A68E7F11E261F3E0074BE3A /* AppDelegate.swift in Sources */,
